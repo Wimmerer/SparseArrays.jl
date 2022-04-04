@@ -10,7 +10,7 @@ using Base: ReshapedArray, promote_op, setindex_shape_check, to_shape, tail,
 using Base.Sort: Forward
 using LinearAlgebra
 using LinearAlgebra: AdjOrTrans, matprod
-
+using SuiteSparse
 import Base: +, -, *, \, /, &, |, xor, ==, zero
 import LinearAlgebra: mul!, ldiv!, rdiv!, cholesky, adjoint!, diag, eigen, dot,
     issymmetric, istril, istriu, lu, tr, transpose!, tril!, triu!, isbanded,
